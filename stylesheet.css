@@ -130,14 +130,30 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-.open-to-work-banner {
+.open-to-work {
+  margin: 0;
+  padding: 14px 18px;
+  background: #f0f7f3;
+  border-left: 3px solid #057642;
   text-align: center;
-  margin: 10px 0 0 0;
-  padding: 6px 10px;
+}
+
+.open-to-work-label {
+  display: inline-block;
+  margin-bottom: 6px;
+  padding: 3px 10px;
   background-color: #057642;
   color: #ffffff;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.open-to-work p {
+  margin: 0;
+  color: #2d4a3a;
+  font-size: 13px;
+  line-height: 1.45;
 }
