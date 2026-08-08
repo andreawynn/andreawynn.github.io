@@ -136,22 +136,12 @@ span.highlight {
   text-align: center;
 }
 
-.open-to-work-label {
-  display: inline-block;
-  margin-bottom: 6px;
-  padding: 3px 10px;
-  background-color: #057642;
-  color: #ffffff;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
 .open-to-work p {
   margin: 0;
   color: #2d4a3a;
   font-size: 13px;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
   line-height: 1.45;
 }
